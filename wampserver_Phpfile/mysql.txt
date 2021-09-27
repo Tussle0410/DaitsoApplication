@@ -1,0 +1,41 @@
+CREATE TABLE user (
+
+  userNo int AUTO_INCREMENT,
+  userID varchar(20) NOT NULL,
+  userPW varchar(20) NOT NULL,
+  userName varchar(20) NOT NULL,
+  userBirth varchar(20) NOT NULL,
+  userSex varchar(20) NOT NULL,
+  PRIMARY KEY (userNo,userID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+create table saveid(
+savecheck boolean not null default 0,
+saveID varchar(20) not null,
+PRIMARY KEY(saveID)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+create table store(
+storeNo int AUTO_INCREMENT PRIMARY KEY,
+storeName varchar(20) NOT NULL,
+storeAddress varchar(250) NOT NULL,
+storeViews int not null default 0,
+storeKinds varchar(20) NOT NULL,
+storeRating float(2,1) default 0,
+region varchar(20) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+create table inquiry(
+inquiryNo int AUTO_INCREMENT PRIMARY KEY,
+userID varchar(25) not null,
+inquiryTitle varchar(60) not null,
+inquiryComment varchar(200) not null,
+answerCheck boolean not null default 0
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+create table inquiryAnswer(
+inquiryNo int,
+answer varchar(200) not null,
+foreign key (inquiryNo) references inquiry(inquiryNo)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
