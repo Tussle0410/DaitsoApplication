@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/service_center_inquiry_check_list_group">
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/login_font"
+        android:textSize="25sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:id="@+id/service_center_inquiry_check_list_title"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="@color/gray"
+                android:id="@+id/service_center_inquiry_check_list_answer_check"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/gray"/>
+
+</LinearLayout>

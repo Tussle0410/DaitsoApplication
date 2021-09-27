@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_reg_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\reg_main_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit_icon.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\exit_icon.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_about_icon_copy_right.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\about_icon_copy_right.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_back_space_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\back_space_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_service_center_inquiry.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\service_center_inquiry.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_1st_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_1st_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\star.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reg_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\reg_main_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_atm.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\atm.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Project\\02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_service_center_inquiry_check.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\service_center_inquiry_check.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_update_button.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\profile_update_button.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_community_views.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\community_views.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_id_pw_found_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\id_pw_found_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_community_click_star.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\community_click_star.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_introduce_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\introduce_main_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_login_button_border.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\login_button_border.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\exit.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_top.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\fragment_top.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_firstlayout.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\firstlayout.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_2st_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_2st_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_answer_admin_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_answer_admin_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_ranking_item_list.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\ranking_item_list.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_ranking_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\ranking_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_introduce_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\app_introduce_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book_store.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\book_store.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cafe.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\cafe.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_answer_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_answer_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_headphones.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\headphones.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_main_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_space_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\back_space_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_church.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\church.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\profile_main_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_community_views.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\community_views.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_list.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\list.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_headphones_icon.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\headphones_icon.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hos.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\hos.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rest.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\rest.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_map_main.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\map_main.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_id_find_list.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\id_find_list.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_button_border.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\login_button_border.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_community_wrote.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\community_wrote.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_pw_find_list.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\pw_find_list.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_dashborad_list_item.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\dashborad_list_item.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ranking.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\ranking.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ranking_trophy.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\ranking_trophy.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_community_wrote.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\community_wrote.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\font_login_font.ttf.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\font\\login_font.ttf"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_com_comment_list.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\com_comment_list.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_reg_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\reg_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bread.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\bread.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_com.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\com.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_custom_button.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\bg_custom_button.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_edge.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\edge.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shop.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\shop.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_background.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_background.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_list_item.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_list_item.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_update_button.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_update_button.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_background.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\profile_background.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info_icon.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\info_icon.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_3st_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\profile_3st_img.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_space_ranking.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\back_space_ranking.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_community_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\community_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_convience_store.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\convience_store.png"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable-v24\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_check_page.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_check_page.xml"
+    },
+    {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_grid_item.xml.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\layout_grid_item.xml"
+    }
+]

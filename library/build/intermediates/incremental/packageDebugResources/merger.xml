@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Project\02\library\src\main\res"/><source path="C:\Project\02\library\build\generated\res\rs\debug"/><source path="C:\Project\02\library\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Project\02\library\src\main\res"><file name="about_icon_email" path="C:\Project\02\library\src\main\res\drawable\about_icon_email.xml" qualifiers="" type="drawable"/><file name="about_icon_facebook" path="C:\Project\02\library\src\main\res\drawable\about_icon_facebook.xml" qualifiers="" type="drawable"/><file name="about_icon_google_play" path="C:\Project\02\library\src\main\res\drawable\about_icon_google_play.xml" qualifiers="" type="drawable"/><file name="about_icon_instagram" path="C:\Project\02\library\src\main\res\drawable\about_icon_instagram.xml" qualifiers="" type="drawable"/><file name="about_icon_link" path="C:\Project\02\library\src\main\res\drawable\about_icon_link.xml" qualifiers="" type="drawable"/><file name="about_icon_youtube" path="C:\Project\02\library\src\main\res\drawable\about_icon_youtube.xml" qualifiers="" type="drawable"/><file name="about_page" path="C:\Project\02\library\src\main\res\layout\about_page.xml" qualifiers="" type="layout"/><file name="about_page_separator" path="C:\Project\02\library\src\main\res\layout\about_page_separator.xml" qualifiers="" type="layout"/><file path="C:\Project\02\library\src\main\res\values\attrs.xml" qualifiers=""><attr format="reference" name="aboutStyle"/><attr format="reference|color" name="aboutBackground"/><attr format="reference" name="aboutDescriptionTextAppearance"/><attr format="color" name="aboutSeparatorColor"/><attr format="reference" name="aboutElementTextAppearance"/><attr format="color" name="aboutElementIconTint"/><attr format="reference" name="aboutGroupTextAppearance"/></file><file path="C:\Project\02\library\src\main\res\values\colors.xml" qualifiers=""><color name="about_item_icon_color">#313131</color><color name="about_background_color">#FFFFFF</color><color name="about_separator_color">#e1e1e1</color><color name="about_description_text_color">#595959</color><color name="about_item_text_color">#7c7c7c</color><color name="about_text_color">#595959</color><color name="about_item_icon_dark_color">?colorAccent</color><color name="about_background_dark_color">#303030</color><color name="about_separator_dark_color">#494949</color><color name="about_description_dark_text_color">#C1C1C1</color><color name="about_item_dark_text_color">#FFFFFF</color><color name="about_text_dark_color">#C1C1C1</color><color name="about_facebook_color">#3b5998</color><color name="about_twitter_color">#55acee</color><color name="about_instagram_color">#3f729b</color><color name="about_play_store_color">#689F38</color><color name="about_youtube_color">#cd201f</color><color name="about_github_color">#333333</color></file><file path="C:\Project\02\library\src\main\res\values\dimens.xml" qualifiers=""><dimen name="about_icon_size">34dp</dimen><dimen name="about_icon_padding">8dp</dimen><dimen name="about_text_padding">8dp</dimen><dimen name="about_group_text_padding">16dp</dimen><dimen name="about_separator_height">0.5dp</dimen><dimen name="about_description_text_size">16sp</dimen><dimen name="about_item_text_size">16sp</dimen><dimen name="about_group_item_text_size">18sp</dimen></file><file path="C:\Project\02\library\src\main\res\values\strings.xml" qualifiers=""><string name="about_page_description" translatable="false">맛있는 식사부터 다양한 놀거리까지,
+다있소는 매일에 즐거운 경험을 더합니다.
+
+상상하는 것이 무엇이든
+당신 주변 가까이에 있는 그 곳까지
+빠르게 추천합니다.
+ </string><string name="about_contact_us">Contact us</string><string name="about_instagram">Follow us on Instagram</string><string name="about_facebook">Like us on Facebook</string><string name="about_play_store">Rate us on the Play Store</string><string name="about_youtube">Watch us on Youtube</string><string name="about_twitter">Follow us on Twitter</string><string name="about_github">Fork us on GitHub</string><string name="about_website">Visit our website</string></file><file path="C:\Project\02\library\src\main\res\values\styles.xml" qualifiers=""><style name="about_About" parent="about_AboutBase_Light"/><style name="about_AboutBase_Light">
+        <item name="aboutBackground">@color/about_background_color</item>
+        <item name="aboutDescriptionTextAppearance">@style/about_descriptionTextAppearance</item>
+        <item name="aboutSeparatorColor">@color/about_separator_color</item>
+        <item name="aboutElementTextAppearance">@style/about_elementTextAppearance</item>
+        <item name="aboutElementIconTint">@color/about_item_icon_color</item>
+        <item name="aboutGroupTextAppearance">@style/about_groupTextAppearance</item>
+    </style><style name="about_AboutBase_Dark">
+        <item name="aboutBackground">@color/about_background_dark_color</item>
+        <item name="aboutDescriptionTextAppearance">@style/about_descriptionTextAppearance.Dark</item>
+        <item name="aboutSeparatorColor">@color/about_separator_dark_color</item>
+        <item name="aboutElementTextAppearance">@style/about_elementTextAppearance.Dark</item>
+        <item name="aboutElementIconTint">@color/about_item_icon_dark_color</item>
+        <item name="aboutGroupTextAppearance">@style/about_groupTextAppearance.Dark</item>
+    </style><style name="about_About.wrapper" parent="">
+        <item name="android:background">?attr/aboutBackground</item>
+    </style><style name="about_sub_wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style><style name="about_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style><style name="about_description" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?attr/aboutDescriptionTextAppearance</item>
+    </style><style name="about_descriptionTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:lineSpacingExtra">8dp</item>
+        <item name="android:textColor">@color/about_description_text_color</item>
+        <item name="android:textSize">@dimen/about_description_text_size</item>
+    </style><style name="about_descriptionTextAppearance.Dark">
+        <item name="android:textColor">@color/about_description_dark_text_color</item>
+    </style><style name="about_separator">
+        <item name="android:layout_height">@dimen/about_separator_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?attr/aboutSeparatorColor</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style><style name="about_elementTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_text_color</item>
+        <item name="android:textSize">@dimen/about_item_text_size</item>
+    </style><style name="about_elementTextAppearance.Dark">
+        <item name="android:textColor">@color/about_text_dark_color</item>
+    </style><style name="about_groupTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_item_text_color</item>
+        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+    </style><style name="about_groupTextAppearance.Dark" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_item_dark_text_color</item>
+    </style></file><file path="C:\Project\02\library\src\main\res\values-ko\strings.xml" qualifiers="ko"><string name="about_contact_us">개발자에게 연락하기</string><string name="about_instagram">인스타그램 팔로우하기</string><string name="about_facebook">페이스북 좋아요하기</string><string name="about_play_store">플레이 스토어 평점주기</string><string name="about_youtube">Youtube 동영상 보기</string><string name="about_twitter">트위터 팔로우하기</string><string name="about_github">GitHub 소스보기</string><string name="about_website">홈페이지 방문하기</string></file><file path="C:\Project\02\library\src\main\res\values-night\styles.xml" qualifiers="night-v8"><style name="about_About" parent="about_AboutBase_Dark"/></file></source><source path="C:\Project\02\library\build\generated\res\rs\debug"/><source path="C:\Project\02\library\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Project\02\library\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Project\02\library\src\debug\res"/></dataSet><mergedItems/></merger>

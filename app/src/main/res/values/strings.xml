@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project01</string>
+    <string name="Login_id_text">ID</string>
+    <string name="Login_pw_text">Password</string>
+    <string name="hint_id">ID를 입력해주세요.</string>
+    <string name="hint_pw">PW를 입력해주세요.</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">홈</string>
+    <string name="comunity">커뮤니티</string>
+    <string name="profile">프로필</string>
+    <string translatable="false" name="copy_right">Copyrights © %1$d</string>
+</resources>

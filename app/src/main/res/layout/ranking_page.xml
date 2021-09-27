@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="#0080ff">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ranking_back_button"
+            android:src="@drawable/back_space_ranking"
+            android:backgroundTint="@color/white"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="65"
+            android:src="@drawable/ranking_trophy"
+            android:layout_margin="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:text="랭 킹"
+            android:textSize="35sp"
+            android:textColor="#ffd400"
+            android:fontFamily="@font/login_font"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_margin="20dp"
+        android:id="@+id/ranking_recyclerview"/>
+</LinearLayout>

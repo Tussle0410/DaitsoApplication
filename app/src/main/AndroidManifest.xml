@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a02">
+    // 이게 위치정보 접근 퍼미션
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.a02"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="" />  //구글 Place API 키
+
+        <activity android:name=".firstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".regActivity" />
+        <activity android:name=".foundActivity" />
+        <activity android:name=".map_main_activity"/>
+        <activity android:name=".main_layout_act"/>
+        <activity android:name=".comActivity"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".comActivity_top"/>
+        <activity android:name=".service_center_page_Activity"/>
+        <activity android:name=".service_center_inquiry_Activity"/>
+        <activity android:name=".service_center_inquiry_check_Activity"/>
+        <activity android:name=".service_center_inquiry_admin_activity"/>
+        <activity android:name=".service_center_inquiry_answer_activity"/>
+        <activity android:name=".ranking_activity"/>
+        <activity android:name=".app_introduce_activity"/>
+    </application>
+
+</manifest>

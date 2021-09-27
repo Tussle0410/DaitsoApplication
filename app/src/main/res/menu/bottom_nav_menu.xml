@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_top"
+        android:icon="@drawable/star"
+        android:title="Top" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/list"
+        android:title="설정" />
+
+</menu>

@@ -1,0 +1,9 @@
+mehdi/sakout/aboutpage/Element.java
+ mehdi.sakout.aboutpage.Element
+mehdi/sakout/aboutpage/AboutPageUtils.java
+ mehdi.sakout.aboutpage.AboutPageUtils
+mehdi/sakout/aboutpage/AboutPage.java
+ mehdi.sakout.aboutpage.AboutPage
+ mehdi.sakout.aboutpage.AboutPage$1
+mehdi/sakout/aboutpage/BuildConfig.java
+ mehdi.sakout.aboutpage.BuildConfig

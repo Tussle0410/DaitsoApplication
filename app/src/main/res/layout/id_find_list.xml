@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="해당하는 ID는"
+        android:textSize="20dp"
+        android:fontFamily="@font/login_font"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/find_id_result"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/login_font"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:padding="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/login_font"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:text="입니다."/>
+
+</LinearLayout>
