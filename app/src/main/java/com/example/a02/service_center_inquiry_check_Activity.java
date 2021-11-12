@@ -28,7 +28,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class service_center_inquiry_check_Activity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private String userID,JsonString;
     private TextView Text_userID;

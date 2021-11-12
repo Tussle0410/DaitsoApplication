@@ -104,16 +104,16 @@
         "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\community_click_star.png"
     },
     {
+        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_introduce_main_img.png.flat",
+        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\introduce_main_img.png"
+    },
+    {
         "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Project\\02\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_service_center_inquiry_page.xml.flat",
         "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\service_center_inquiry_page.xml"
-    },
-    {
-        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_introduce_main_img.png.flat",
-        "source": "C:\\Project\\02\\app\\src\\main\\res\\drawable\\introduce_main_img.png"
     },
     {
         "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
@@ -150,10 +150,6 @@
     {
         "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_ranking_page.xml.flat",
         "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\ranking_page.xml"
-    },
-    {
-        "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_introduce_page.xml.flat",
-        "source": "C:\\Project\\02\\app\\src\\main\\res\\layout\\app_introduce_page.xml"
     },
     {
         "merged": "C:\\Project\\02\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book_store.png.flat",

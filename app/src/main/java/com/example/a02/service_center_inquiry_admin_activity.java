@@ -27,7 +27,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class service_center_inquiry_admin_activity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private String inquiry_title,inquiry_comment,inquiry_No;
     private TextView title, comment;

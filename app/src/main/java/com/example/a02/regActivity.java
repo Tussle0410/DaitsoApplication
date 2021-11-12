@@ -44,7 +44,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class regActivity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private boolean validate = false;
     private EditText reg_input_id, reg_input_pw, reg_input_pw_check, reg_input_name,

@@ -8,6 +8,7 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -48,7 +49,7 @@ import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private BackPressCloseHandler backPressCloseHandler;
     private Button login_button;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     private String JsonString,JsonSaveString;
     private CheckBox login_SaveID_check;
     private GpsTracker gpsTracker;
-    private boolean gpscheck = false;
+    private boolean gpscheck = false,Save_ID_Check;
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
     private static final int PERMISSIONS_REQUEST_CODE = 100;
     String[] REQUIRED_PERMISSIONS  = {Manifest.permission.ACCESS_FINE_LOCATION, // 앱 실행 퍼미션
@@ -72,14 +73,18 @@ public class MainActivity extends AppCompatActivity {
         }else {
             checkRunTimePermission();
         }
-
+        Context context = this;
         backPressCloseHandler = new BackPressCloseHandler(this);
+        Save_ID_Check = PreferenceManager.getBoolean(context,"check");
         Button login_regButton = (Button) findViewById(R.id.login_reg_button);
         login_input_id = (EditText) findViewById(R.id.login_id);
         login_input_pw = (EditText) findViewById(R.id.login_pw);
         login_SaveID_check = (CheckBox) findViewById(R.id.login_SaveID_Check);
-        saveID saveID = new saveID();
-        saveID.execute("http://" + IP_ADDRESS + "/SaveID.php");
+        if(Save_ID_Check){
+            login_input_id.setText(PreferenceManager.getString(context,"ID"));
+            login_SaveID_check.setChecked(true);
+        }
+
         login_regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,19 +106,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String userID = login_input_id.getText().toString();
                 String userPW = login_input_pw.getText().toString();
-                if(login_SaveID_check.isChecked()){
-                    CheckSaveID checkSaveID = new CheckSaveID();
-                    checkSaveID.execute("http://" + IP_ADDRESS + "/CheckSaveID.php", userID);
-                    
+                if(userID.equals("")){
+                    Toast.makeText(context, "아이디를 입력하세요.", Toast.LENGTH_SHORT).show();
+                }else{
+                    if(userPW.equals("")){
+                        Toast.makeText(context, "비밀번호를 입력하세요.", Toast.LENGTH_SHORT).show();
+                    }else{
+                        if(login_SaveID_check.isChecked()){
+                            PreferenceManager.setBoolean(context,"check",login_SaveID_check.isChecked());
+                            PreferenceManager.setString(context,"ID",userID);
+                        }else{
+                            PreferenceManager.setBoolean(context,"check",login_SaveID_check.isChecked());
+                        }
+                        login task = new login();
+                        task.execute("http://" + IP_ADDRESS + "/login.php", userID, userPW);
+                        login_input_pw.setText("");
+                    }
                 }
-                else{
-                    UnCheckSaveID unCheckSaveID = new UnCheckSaveID();
-                    unCheckSaveID.execute("http://" + IP_ADDRESS + "/UnCheckSaveID.php");
-                    login_input_id.setText("");
-                }
-                login task = new login();
-                task.execute("http://" + IP_ADDRESS + "/login.php", userID, userPW);
-                login_input_pw.setText("");
 
             }
         });
@@ -377,258 +386,5 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }}
-    private class saveID extends AsyncTask<String, Void, String> {
-
-        ProgressDialog progressDialog;
-        String errorString = null;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-            progressDialog = ProgressDialog.show(MainActivity.this,
-                    "Please Wait", null, true, true);
-        }
-
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-
-            progressDialog.dismiss();
-
-            if (result.equals("no")) {
-                login_input_id.setText("");
-            } else {
-                JsonSaveString = result;
-                showResult();
-                login_SaveID_check.setChecked(true);
-            }
-            Log.d(TAG, "response - " + result);
-        }
-
-
-        @Override
-        protected String doInBackground(String... params) {
-
-            String serverURL = (String) params[0];
-
-
-            try {
-
-                URL url = new URL(serverURL);
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-
-
-                httpURLConnection.setReadTimeout(5000);
-                httpURLConnection.setConnectTimeout(5000);
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoInput(true);
-                httpURLConnection.connect();
-
-
-
-
-                int responseStatusCode = httpURLConnection.getResponseCode();
-                Log.d(TAG, "response code - " + responseStatusCode);
-
-                InputStream inputStream;
-                if (responseStatusCode == HttpURLConnection.HTTP_OK) {
-                    inputStream = httpURLConnection.getInputStream();
-                } else {
-                    inputStream = httpURLConnection.getErrorStream();
-                }
-
-
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
-                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-                StringBuilder sb = new StringBuilder();
-                String line;
-
-                while ((line = bufferedReader.readLine()) != null) {
-                    sb.append(line);
-                }
-
-
-                bufferedReader.close();
-                return sb.toString().trim();
-
-
-            } catch (Exception e) {
-
-                Log.d(TAG, "InsertData: Error ", e);
-                errorString = e.toString();
-
-                return null;
-            }
-        }
-        private void showResult(){
-
-            String TAG_JSON="saveid";
-            String TAG_ID = "saveID";
-            try {
-                JSONObject jsonObject = new JSONObject(JsonSaveString);
-                JSONArray jsonArray = jsonObject.getJSONArray(TAG_JSON);
-
-                JSONObject item = jsonArray.getJSONObject(0);
-                String saveID = item.getString(TAG_ID);
-                Log.d(TAG,saveID);
-                login_input_id.setText(saveID);
-            } catch (JSONException e) {
-                Log.d(TAG, "showResult : ", e);
-            }}
-    }
-    private class CheckSaveID extends AsyncTask<String, Void, String> {
-
-        ProgressDialog progressDialog;
-        String errorString = null;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-            progressDialog = ProgressDialog.show(MainActivity.this,
-                    "Please Wait", null, true, true);
-        }
-
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-            progressDialog.dismiss();
-            Log.d(TAG, "response - " + result);
-        }
-
-
-        @Override
-        protected String doInBackground(String... params) {
-
-            String serverURL = (String) params[0];
-            String userID = (String) params[1];
-            String postParameters = "userID=" + userID;
-            try {
-
-                URL url = new URL(serverURL);
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setReadTimeout(5000);
-                httpURLConnection.setConnectTimeout(5000);
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoInput(true);
-                httpURLConnection.connect();
-
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                outputStream.write(postParameters.getBytes("UTF-8"));
-                outputStream.flush();
-                outputStream.close();
-
-                int responseStatusCode = httpURLConnection.getResponseCode();
-                Log.d(TAG, "response code - " + responseStatusCode);
-
-                InputStream inputStream;
-                if (responseStatusCode == HttpURLConnection.HTTP_OK) {
-                    inputStream = httpURLConnection.getInputStream();
-                } else {
-                    inputStream = httpURLConnection.getErrorStream();
-                }
-
-
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
-                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-                StringBuilder sb = new StringBuilder();
-                String line;
-
-                while ((line = bufferedReader.readLine()) != null) {
-                    sb.append(line);
-                }
-                bufferedReader.close();
-                return sb.toString().trim();
-
-
-            } catch (Exception e) {
-
-                Log.d(TAG, "InsertData: Error ", e);
-                errorString = e.toString();
-
-                return null;
-            }
-        }}
-    private class UnCheckSaveID extends AsyncTask<String, Void, String> {
-
-        ProgressDialog progressDialog;
-        String errorString = null;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-            progressDialog = ProgressDialog.show(MainActivity.this,
-                    "Please Wait", null, true, true);
-        }
-
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-            progressDialog.dismiss();
-            Log.d(TAG, "response - " + result);
-        }
-
-
-        @Override
-        protected String doInBackground(String... params) {
-
-            String serverURL = (String) params[0];
-            try {
-
-                URL url = new URL(serverURL);
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-
-
-                httpURLConnection.setReadTimeout(5000);
-                httpURLConnection.setConnectTimeout(5000);
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoInput(true);
-                httpURLConnection.connect();
-
-
-
-
-                int responseStatusCode = httpURLConnection.getResponseCode();
-                Log.d(TAG, "response code - " + responseStatusCode);
-
-                InputStream inputStream;
-                if (responseStatusCode == HttpURLConnection.HTTP_OK) {
-                    inputStream = httpURLConnection.getInputStream();
-                } else {
-                    inputStream = httpURLConnection.getErrorStream();
-                }
-
-
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
-                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-                StringBuilder sb = new StringBuilder();
-                String line;
-
-                while ((line = bufferedReader.readLine()) != null) {
-                    sb.append(line);
-                }
-
-
-                bufferedReader.close();
-                return sb.toString().trim();
-
-
-            } catch (Exception e) {
-
-                Log.d(TAG, "InsertData: Error ", e);
-                errorString = e.toString();
-
-                return null;
-            }
-        }}
-
     }
 

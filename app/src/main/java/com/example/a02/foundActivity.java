@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class foundActivity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private Button found_id_button, found_pw_button;
     private EditText found_id_name, found_pw_id,found_pw_birth;
@@ -212,7 +212,6 @@ public class foundActivity extends AppCompatActivity {
 
                     JSONObject item = jsonArray.getJSONObject(i);
                     String userID = item.getString(TAG_ID);
-                    Log.d(TAG,userID);
                     UserData userData = new UserData();
 
                     userData.setUserID(userID);

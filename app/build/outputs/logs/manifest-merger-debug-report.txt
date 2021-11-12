@@ -15,7 +15,7 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\cksgu\.gradle\cach
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\fac2514e30366d593fc196f9c7621f11\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8098b27b18873dcb472f1af44db13c2f\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\edbc02cbf770123a7654ec213ccd541a\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d3ab4f69825f96d7a7dc5ab239f8b4d5\jetified-library-3.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8f9c6f8fefb7b39fe9de7d36ecd1ff82\jetified-library-3.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\6aa2c7d20b26954683e143a86d270538\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\cb9a3e59acc807d37aba32bb8a89396f\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\fe59be2f54b0f45c03ec9bc6d3c48ea4\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
@@ -104,8 +104,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cksgu\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\706cafb4e7e50f92cee48dfbc3193790\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d8a65d632a150b7a791c5218bb6d7189\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d8a65d632a150b7a791c5218bb6d7189\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
-MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d3ab4f69825f96d7a7dc5ab239f8b4d5\jetified-library-3.4.0\AndroidManifest.xml:9:5-20
-MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d3ab4f69825f96d7a7dc5ab239f8b4d5\jetified-library-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8f9c6f8fefb7b39fe9de7d36ecd1ff82\jetified-library-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8f9c6f8fefb7b39fe9de7d36ecd1ff82\jetified-library-3.4.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\fe59be2f54b0f45c03ec9bc6d3c48ea4\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\fe59be2f54b0f45c03ec9bc6d3c48ea4\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\fe4aaa2e243bf96e392a8e961480b149\jetified-play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
@@ -252,8 +252,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cksgu\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8098b27b18873dcb472f1af44db13c2f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\edbc02cbf770123a7654ec213ccd541a\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\edbc02cbf770123a7654ec213ccd541a\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d3ab4f69825f96d7a7dc5ab239f8b4d5\jetified-library-3.4.0\AndroidManifest.xml:7:5-44
-MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\d3ab4f69825f96d7a7dc5ab239f8b4d5\jetified-library-3.4.0\AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8f9c6f8fefb7b39fe9de7d36ecd1ff82\jetified-library-3.4.0\AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\8f9c6f8fefb7b39fe9de7d36ecd1ff82\jetified-library-3.4.0\AndroidManifest.xml:7:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\6aa2c7d20b26954683e143a86d270538\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\6aa2c7d20b26954683e143a86d270538\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\cksgu\.gradle\caches\transforms-2\files-2.1\cb9a3e59acc807d37aba32bb8a89396f\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41

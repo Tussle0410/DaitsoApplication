@@ -1,19 +1,14 @@
 package com.example.a02;
 
 import android.app.ProgressDialog;
-import android.media.Image;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,7 +31,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class comActivity extends AppCompatActivity {
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private String title = "", address = "", category = "", check = "", storeNo = "", storeViews = "", Rating = "",
             userID = "", region = "",stringRating, commentstring, ratingstringresult;

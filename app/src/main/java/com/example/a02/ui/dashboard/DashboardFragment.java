@@ -41,7 +41,7 @@ import java.util.ArrayList;
 public class DashboardFragment extends Fragment {
 
     private DashboardViewModel dashboardViewModel;
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private RecyclerView dashboard_list;
     private RecyclerView.LayoutManager dashboard_list_manager;

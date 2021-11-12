@@ -33,7 +33,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class NotificationsFragment extends Fragment{
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private static String TAG = "php";
     private TextView Profile_No,Profile_ID,Profile_Name,Profile_Point,Profile_Birth,Profile_Sex,Profile_name;
     private String userID, userNo, userPW, userName, userBirth, userPoint, userSex,JsonString;

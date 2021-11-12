@@ -78,7 +78,7 @@ public class map_main_activity extends AppCompatActivity
         ActivityCompat.OnRequestPermissionsResultCallback,
         PlacesListener {
 
-    private static String IP_ADDRESS = "";   //내부 IP주소
+    private static String IP_ADDRESS = "192.168.0.3";   //내부 IP주소
     private String JsonNo,JsonString,StoreViews="0",StoreRating="0.0",latitude,longitude,userID;
     private String check = "off";
     private String StoreNo="0";
@@ -199,13 +199,9 @@ public class map_main_activity extends AppCompatActivity
     @Override
     public void onMapReady(final GoogleMap googleMap) {
         Log.d(TAG, "onMapReady :");
-
         mMap = googleMap; // 공통변수를 mMap으로 선언해서 받아씀
-
         // 초기위치 지정했을 때 쓰는 메소드 (서울로 지정해놓음)
         setDefaultLocation();
-
-
         // 위치 접근 권한 갖고있는지 검사
         int hasFineLocationPermission = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION);
@@ -707,7 +703,7 @@ public class map_main_activity extends AppCompatActivity
         if(category.equals("RESTAURANT")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.RESTAURANT) // 마음대로 바꾸기 가능
@@ -717,7 +713,7 @@ public class map_main_activity extends AppCompatActivity
         }else if(category.equals("CAFE")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.CAFE) // 마음대로 바꾸기 가능
@@ -728,7 +724,7 @@ public class map_main_activity extends AppCompatActivity
         else if(category.equals("CHURCH")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.CHURCH) // 마음대로 바꾸기 가능
@@ -739,7 +735,7 @@ public class map_main_activity extends AppCompatActivity
         else if(category.equals("SUPERMARKET")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.STORE) // 마음대로 바꾸기 가능
@@ -750,7 +746,7 @@ public class map_main_activity extends AppCompatActivity
         else if(category.equals("BAKERY")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.BAKERY) // 마음대로 바꾸기 가능
@@ -760,7 +756,7 @@ public class map_main_activity extends AppCompatActivity
         } else if(category.equals("CONVENIENCE_STORE")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.CONVENIENCE_STORE) // 마음대로 바꾸기 가능
@@ -770,7 +766,7 @@ public class map_main_activity extends AppCompatActivity
         } else if(category.equals("HOSPITAL")) {
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.HOSPITAL) // 마음대로 바꾸기 가능
@@ -780,7 +776,7 @@ public class map_main_activity extends AppCompatActivity
         } else if(category.equals("ATM")){
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.ATM) // 마음대로 바꾸기 가능
@@ -790,7 +786,7 @@ public class map_main_activity extends AppCompatActivity
         }else if(category.equals("BOOK_STORE")){
             new NRPlaces.Builder()
                     .listener(map_main_activity.this)
-                    .key("") // 여기는 기존 for android api키가 아니라 다른거 입력
+                    .key("AIzaSyAUl_zkM5ppfb0oKvw0Ls-cckf9ck9wLvc") // 여기는 기존 for android api키가 아니라 다른거 입력
                     .latlng(location.latitude, location.longitude) // 이게 현재위치 위도와 경도
                     .radius(result_meter) // 내 주변 반경 00미터 검색
                     .type(PlaceType.BOOK_STORE) // 마음대로 바꾸기 가능

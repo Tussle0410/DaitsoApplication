@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" />  //구글 Place API 키
+            android:value="AIzaSyDsViJ_rMk2Pv24VlaHSBu51qXaZ0KA96M" />  //구글 Place API 키
 
         <activity android:name=".firstActivity"
             android:screenOrientation="portrait">
