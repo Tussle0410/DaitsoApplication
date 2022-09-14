@@ -22,9 +22,18 @@
 (Put the .php files used in the app into "wamp64/www/bank/")
 
 ## DataBase Entity-Relation Diagram(E-R)
+<img width="499" alt="졸프릴레이션테이블" src="https://user-images.githubusercontent.com/69793388/190277234-61295716-4881-4e9e-8c6d-d4ad2d9cfb3f.png">
 
 
 ## Using Screen
+![splash](https://user-images.githubusercontent.com/69793388/190276934-aca31cc2-4548-435c-92c1-5f3f6813dd48.jpg)
+<img width="245" alt="1" src="https://user-images.githubusercontent.com/69793388/190276961-eec1b094-9f14-498f-8d75-46edaff7c51c.png">
+<img width="245" alt="2" src="https://user-images.githubusercontent.com/69793388/190276969-88989967-8a8e-4b3b-9cbb-ced9745eacce.png">
+<img width="244" alt="3" src="https://user-images.githubusercontent.com/69793388/190277112-c9fa154f-5563-405a-becc-53d13663d59e.png">
+<img width="247" alt="4" src="https://user-images.githubusercontent.com/69793388/190277135-31a03774-13d7-4ba9-bf38-d33a1958b190.png">
+<img width="242" alt="5" src="https://user-images.githubusercontent.com/69793388/190277149-aac152c3-5e56-4d9c-80e8-9f5462009268.png">
+<img width="247" alt="6" src="https://user-images.githubusercontent.com/69793388/190277156-55dce5c3-8cde-4f57-926e-05127909993f.png">
+
 
 ## Studying Info
 * MVC
