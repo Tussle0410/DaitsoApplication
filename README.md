@@ -26,7 +26,7 @@
 
 
 ## Using Screen
-![splash](https://user-images.githubusercontent.com/69793388/190276934-aca31cc2-4548-435c-92c1-5f3f6813dd48.jpg)
+<img width="261" alt="splash" src="https://user-images.githubusercontent.com/69793388/190287065-89a64342-7e6e-4887-b3f1-9c6c8f29cf02.png">
 <img width="245" alt="1" src="https://user-images.githubusercontent.com/69793388/190276961-eec1b094-9f14-498f-8d75-46edaff7c51c.png">
 <img width="245" alt="2" src="https://user-images.githubusercontent.com/69793388/190276969-88989967-8a8e-4b3b-9cbb-ced9745eacce.png">
 <img width="244" alt="3" src="https://user-images.githubusercontent.com/69793388/190277112-c9fa154f-5563-405a-becc-53d13663d59e.png">
